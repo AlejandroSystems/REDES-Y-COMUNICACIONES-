@@ -1,0 +1,26 @@
+# REDES-Y-COMUNICACIONES-
+Creación de un sistema de RED de cabinas de internet enfocado en un ambito real, siguiente las buenas prácticas y cumplendo protocolos estandar.
+
+**Tecnologías clave**
+VLANs, 802.1Q, STP/RSTP, EtherChannel
+OSPF, rutas estáticas, default route
+NAT/PAT hacia Internet
+ACLs (in/out), DMZ para publicar servicios (Web/DNS)
+DHCP/DNS/NTP internos
+VPN site-to-site (laboratorio)
+QoS básico para VoIP/CCTV
+Aprendizajes
+
+Aprendizajes:
+Segmentación y direccionamiento con VLSM
+Seguridad perimetral y publicación controlada en DMZ
+Redundancia y convergencia rápida en switching/routing
+Troubleshooting con show, ping/traceroute y Syslog/SNMP (simulado)
+
+Valor práctico
+Más disponibilidad y seguridad (menor superficie de ataque)
+Escalabilidad y mantenimiento sencillo (diseño jerárquico + OSPF)
+Calidad de servicio para voz/video priorizados
+
+Entregables
+Archivo .pkt, diagrama de red, matriz de ACLs y guía breve de pruebas.
